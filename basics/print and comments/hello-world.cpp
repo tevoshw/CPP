@@ -1,10 +1,14 @@
-#include <iostream>
+// LIKE IN C, THE CPP DOESN'T HAVE A STANDARD WAY TO GET PRINT OR INPUT, SO WE NEED TO USE THE LIB
+// I/O STREAM
+
+#include <iostream> // LIB  FOR I/O
 
 
-// COMENTARIOS
 
 
-int main(){
-    std::cout <<"Hello World" << std::endl;
-    return 0;
+int main(){ // LIKE IN C, A 'MAIN' FUNCTION IT'S A SPECIAL FUNCTION THAT RUN WITHOUT CALL, IT'S SO IMPORANT IN C AND CPP
+
+    std::cout <<"Hello World" << std::endl; // IT'S THE 'COMPLEX' FORM OF COUT
+
+    return 0; // IT'S ALWAYS NECESSARY TO CLOSES THE CODE, AND NOT LEAK MEMORY
 }
